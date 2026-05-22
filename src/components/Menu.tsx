@@ -55,9 +55,6 @@ export default function Menu() {
                     <h4 className="font-serif text-xl sm:text-2xl italic text-green-deep font-medium group-hover:text-green-custom transition-colors duration-300">
                       {dish.name}
                     </h4>
-                    <span className="font-sans text-xs text-green-custom tracking-wider font-semibold bg-green-pale/30 px-2.5 py-0.5 rounded-full uppercase">
-                      Domowa receptura
-                    </span>
                   </div>
                   {dish.description && (
                     <p className="font-sans text-[14px] text-text-mid leading-relaxed max-w-xl text-left">
@@ -82,9 +79,6 @@ export default function Menu() {
                     <h4 className="font-serif text-xl sm:text-2xl italic text-green-deep font-medium group-hover:text-green-custom transition-colors duration-300">
                       {dish.name}
                     </h4>
-                    <span className="font-sans text-xs text-green-custom tracking-wider font-semibold bg-green-pale/30 px-2.5 py-0.5 rounded-full uppercase">
-                      Klasyka kuchni
-                    </span>
                   </div>
                   {dish.description && (
                     <p className="font-sans text-[14px] text-text-mid leading-relaxed max-w-xl text-left">
@@ -109,9 +103,6 @@ export default function Menu() {
                     <h4 className="font-serif text-xl sm:text-2xl italic text-green-deep font-medium group-hover:text-green-custom transition-colors duration-300">
                       {dish.name}
                     </h4>
-                    <span className="font-sans text-xs text-green-custom tracking-wider font-semibold bg-green-pale/30 px-2.5 py-0.5 rounded-full uppercase">
-                      Darmowa porada
-                    </span>
                   </div>
                   {dish.description && (
                     <p className="font-sans text-[14px] text-text-mid leading-relaxed max-w-xl text-left">
@@ -147,14 +138,7 @@ export default function Menu() {
             „Nasze dania opierają się na świeżych ziołach, wiejskim maśle i powolnym gotowaniu. Tu nie ma pośpiechu, za to jest bezkompromisowy smak, który znasz z domu.”
           </p>
 
-          <div className="flex flex-col gap-1">
-            <span className="font-sans text-[10px] uppercase tracking-widest text-text-muted font-bold">
-              KUCHENNA GWARANCJA
-            </span>
-            <span className="font-sans text-xs text-text-mid">
-              Tradycyjne receptury Marleny
-            </span>
-          </div>
+
         </div>
 
       </div>
