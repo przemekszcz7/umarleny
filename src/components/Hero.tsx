@@ -1,7 +1,6 @@
 import { motion } from "motion/react";
 import { ArrowDown, Phone, MapPin } from "lucide-react";
-// Image path from our asset generation
-const HERO_IMAGE_PATH = "/src/assets/images/hero_dish_1779432682715.png";
+import HERO_IMAGE from "../assets/images/hero_dish_1779432682715.png";
 
 export default function Hero() {
   return (
@@ -76,7 +75,7 @@ export default function Hero() {
             className="relative z-10 overflow-hidden shadow-2xl rounded-2xl border border-green-pale/40 bg-white p-3"
           >
             <img
-              src={HERO_IMAGE_PATH}
+              src={HERO_IMAGE}
               alt="Domowe pierogi i gulasze w Barlinku"
               className="w-full h-auto object-cover rounded-xl grayscale-[15%] hover:grayscale-0 transition-all duration-700"
               referrerPolicy="no-referrer"

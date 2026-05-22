@@ -1,8 +1,7 @@
 import { motion } from "motion/react";
 import { MENU_ITEMS } from "../data";
 import { Sparkles } from "lucide-react";
-
-const INGREDIENTS_IMAGE = "/src/assets/images/cozy_ingredients_1779432701167.png";
+import INGREDIENTS_IMAGE from "../assets/images/cozy_ingredients_1779432701167.png";
 
 export default function Menu() {
   // Group menu items by category type
