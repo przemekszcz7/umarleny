@@ -1,0 +1,6 @@
+{
+  "name": "Obiady u Marleny",
+  "description": "Tradycyjna kuchnia domowa w Barlinku. Pierogi, kopytka, gołąbki, tradycyjne zestawy obiadowe z możliwością dowozu.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
